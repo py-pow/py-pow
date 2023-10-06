@@ -64,6 +64,5 @@
 
 ###
 
-<img src="https://raw.githubusercontent.com/py-pow/py-pow/output/snake.svg" alt="Snake animation" />
 
 ###
