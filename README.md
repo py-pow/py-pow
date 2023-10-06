@@ -1,6 +1,3 @@
-<div align="center">
-  <img height="150" src="https://camo.githubusercontent.com/8d40b430f8a63fee42006d90764fdaf447e8a8aadd5bf41e5c365dded1dc47ad/68747470733a2f2f7777772e696d61676576697369742e636f6d2f696d616765732f323032322f31322f31312f6767672e676966"  />
-</div>
 
 ###
 
