@@ -1,7 +1,7 @@
 import requests
 
 # E-posta listesini içeren dosyanın adı
-file_name = "extracted_emails2.txt"
+file_name = "extracted_emails.txt"
 
 # POST isteği yapılacak URL
 post_url = "https://mail.com.tr/message/send/format/html"  # İlgili URL'yi güncelleyin
