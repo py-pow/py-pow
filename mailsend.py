@@ -29,14 +29,14 @@ for email in email_list:
         "saveinsent": 1,
         "linkattachments": 0,
         "to": email,  # Her e-postayı sırayla gönderin
-        "subject": "#FREEPALESTINE 🇵🇸🇹🇷",
+        "subject": "#FREEPALESTINE 🇵🇸",
         "message": "<img src='https://img.tv100.com/rcman/Cw850h478q95gc/storage/files/images/2023/10/22/kapak-fn56_cover.jpg' width='275' height='250'><img src='https://www.gercektaraf.com/images/haberler/2023/10/israil-gazze-de-1030-cocugu-oldurdu-9707.jpg' width='275' height='250'><img src='https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2128000/saldiri-gazze-aa-2128967_2.jpg' width='275' height='250'><img src='https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2120000/rimal-a-2121838.jpg' width='275' height='250'><style>img {float:left;}</style><br><p>Palestine is under the occupation of the Israeli state. Innocent civilians, including children and babies, are being ruthlessly killed in Palestine. What crimes have these children, babies, and civilians committed to justify such merciless killings by the Israeli government? How can babies and children be considered terrorists and be brutally killed? Stand against the ruthless attacks in Palestine, for it is only babies, children, and civilians who are losing their lives. 'If you can feel pain, you are alive. If you can feel the pain of others, you are human. - Lev Tolstoy.' No case in which innocent babies, children, and civilians are being killed can be considered a just one. Oppose this ruthless genocide, so that the innocent, babies, and children do not perish. Imagine what the children in Palestine are going through, or think about sitting at home with your family while constantly facing aerial, land, and sea bombardments with all sorts of chemical bombs.The people in Gaza are being denied access to essential resources such as electricity, water, food, medical supplies/equipment, and fuel. What will patients dependent on medical devices, premature babies in incubators, and those who have no access to anything do to survive? This is a blatant act of genocide and a violation of human rights. Regardless of your religion, whether you are Muslim, Christian, Jewish, Buddhist, Atheist, or of any other faith, it doesn't matter. Show your outrage against this massacre because you are a human being.Just think about it.The State of Israel is ruthlessly bombing hospitals, schools, marketplaces, civilian settlements, places of worship (mosques, churches) and places where civilians and children take shelter in Gaza. <br> <hr>Note: This e-mail has been sent automatically for informational purposes. Posted by: Erkan Demir 🇹🇷</p>"
     }
 
     response = requests.post(post_url, data=data, headers=headers)
 
 if response.status_code == 200:
-    if "<params>%7B%22prevuid%22%3A-1%2C%22nextuid%22%3A-1%2C%22nextunseen%22%3A-1%2C%22flagname%22%3A%22%22%7D</params>" in response.text:
+    if "params" in response.text:
         print(f"Email başarıyla gönderildi: {email}")
     else:
         print(f"Gönderimde bir hata oluştu: {email}")
