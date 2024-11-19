@@ -3,8 +3,13 @@
 	<p align="center"><img src="https://github.com/user-attachments/assets/e26d1d6a-30ee-488e-90ca-11b3aa180148" width="100%" height="auto"/></p>
 
 <div align="center">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Dotoa&weight=400&size=20&pause=1000&color=1BCCF7&vCenter=true&multiline=true&width=700&height=200&lines=class+ErkanDemir(models.Model)%3A;&nbsp;&nbsp;&nbsp;name+%3D+models.CharField(max_length%3D50%2Cdefault%3D%22ErkanDemir);&nbsp;&nbsp;&nbsp;&nbsp;class+Meta%3A;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;verbose_name+%3D+%22README.md%22" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Dotoa&weight=400&size=15&pause=1000&color=1BCCF7&vCenter=true&multiline=true&width=700&height=200&lines=class+ErkanDemir(models.Model)%3A;&nbsp;&nbsp;&nbsp;name+%3D+models.CharField(max_length%3D50%2Cdefault%3D%22ErkanDemir);&nbsp;&nbsp;&nbsp;&nbsp;class+Meta%3A;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;verbose_name+%3D+%22README.md%22" alt="Typing SVG" /></a>
+
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Dotoa&size=15&pause=1000&color=1BCCF7&multiline=true&width=550&height=200&lines=%24+python+manage.py+createsuperuser;%24+username+%3A+edem;%24+password+%3A+123456;%24+Bypass+password+validation+and+create+user+anyway%3F+%5By%2FN%5D%3A+N%3F!" alt="Typing SVG" /></a>
 </div>
+
+
+
 
 
 # 💻 Tech Stack:
